@@ -14,9 +14,7 @@ export const NavBar = () => {
                 <div className="navbar-nav ml-auto">
                 <NavLink exact activeClassName="active" to="/marvel" className="nav-item nav-link" >Marvel </NavLink>
                 <NavLink exact activeClassName="active" to="/dc" className="nav-item nav-link" >DC</NavLink>
-                {/* <NavLink exact activeClassName="active" to="/login" className="nav-item nav-link" >Logout</NavLink>*/}
-                
-                </div>
+               </div>
             </div>
 </nav>
     )
